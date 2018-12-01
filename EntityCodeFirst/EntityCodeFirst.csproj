@@ -160,6 +160,7 @@
     <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeDbContext.cs" />
+    <Compile Include="EmployeeDbContextSeed.cs" />
     <Compile Include="EmployeeRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

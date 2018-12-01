@@ -17,7 +17,8 @@ namespace EntityCodeFirst
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<EmployeeDbContext>());
+            //  Database.SetInitializer(new DropCreateDatabaseIfModelChanges<EmployeeDbContext>()); // usunięcie i odtworzenie tablicy przy każdym wywołaniu
+            Database.SetInitializer(new EmployeeDbContextSeed());
         }
     }
 }

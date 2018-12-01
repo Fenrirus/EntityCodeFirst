@@ -17,5 +17,6 @@ namespace EntityCodeFirst
         public int DepartmentID { get; set; }
         [ForeignKey("DepartmentID")]
         public Department Department { get; set; }
+        public string JobTitle { get; set; }
     }
 }

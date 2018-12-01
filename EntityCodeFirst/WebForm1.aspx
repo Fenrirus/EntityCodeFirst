@@ -24,6 +24,7 @@
                                     <asp:BoundField DataField="LastName" HeaderText="Last Name" />
                                     <asp:BoundField DataField="Gender" HeaderText="Gender" />
                                     <asp:BoundField DataField="Salary" HeaderText="Salary" />
+                                    <asp:BoundField DataField="JobTitle" HeaderText="Job Title" />
                                 </Columns>
                             </asp:GridView>
                         </ItemTemplate>
